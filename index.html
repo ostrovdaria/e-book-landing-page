@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <title>PocketBook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.png" width="120px">
+      <nav class="header-nav">
+        <a href="#features">ПРЕИМУЩЕСТВА</a>
+        <a href="#specs">ХАРАКТЕРИСТИКИ</a>
+        <a href="#reviews">ОТЗЫВЫ</a>
+        <a href="#about-us">О НАС</a>
+        <a href="#contacts">КОНТАКТЫ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero-section">
+      <h1>PocketBook 616</h1>
+      <p>Ваша идеальная читалка для любых условий всего за</p>
+      <div class="price">
+        <span class="old-price">11 500 ₽</span>
+        <span class="new-price">9 200 ₽</span>
+      </div>
+
+      <p>Успейте купить со скидкой 20% <span style="color: #e93e0a; font-style: italic">ТОЛЬКО ДО 15 ИЮНЯ!</span></p>
+      <div class="button-container">
+        <a href="#order" class="button2">Купить сейчас</a>
+        <a href="#features" class="button1">Узнать больше</a>
+      </div>
+    </div>
+    <div class="order" id="order">
+      <div class="order-window">
+        <h2>Оформление заказа</h2>
+        <form class="order-form">
+          <div class="form-group">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required placeholder="Ваше имя">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Почта:</label>
+            <input type="email" id="email" name="email" required placeholder="example@mail.com">
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+7 (XXX) XXX-XX-XX">
+          </div>
+
+          <button type="submit" class="order-button">Заказать</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="features" id="features">
+      <h1 style="text-align: center; color: white;">Преимущества PocketBook 616</h1>
+
+      <div class="features-row">
+        <div class="feature-item">
+          <img src="images/eye.png" width="30px">
+          <h2>Комфорт для глаз</h2>
+          <ul>
+            <li>Технология E Ink — нет мерцания и синего света (в отличие от смартфонов).</li>
+            <li>Настройки шрифтов — можно увеличить размер или сменить гарнитуру.</li>
+          </ul>
+        </div>
+
+        <div class="feature-item">
+          <img src="images/bookmark.png" width="30px">
+          <h2>Экран E Ink Carta</h2>
+          <ul>
+            <li>Разрешение 1024×758 (212 dpi) — текст четкий, как на бумаге.</li>
+            <li>Без бликов — можно читать при ярком солнце.</li>
+            <li>Регулируемая подсветка — чтение в темноте без вреда для глаз.</li>
+          </ul>
+        </div>
+
+
+        <div class="feature-item">
+          <img src="images/happyface.png" width="30px">
+          <h2>Поддержка 20+ форматов</h2>
+          <ul>
+            <li>FB2, EPUB, PDF, DJVU, MOBI, TXT и другие.</li>
+            <li>Встроенные словари — перевод слов в книгах.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="specs" id="specs">
+      <h1 style="text-align: center;">Характеристики</h1>
+
+      <div class="specs-row">
+        <div class="specs-item">
+          <h2>Общие характеристики</h2>
+          <ul>
+            <li>Модель: PocketBook 616</li>
+            <li>Тип: Электронная книга (E Ink ридер)</li>
+            <li>Дисплей: 6" E Ink Carta, 16 градаций серого</li>
+            <li>Разрешение: 1024 × 758 пикселей (212 ppi)</li>
+            <li>Подсветка: Да (регулируемая)</li>
+          </ul>
+        </div>
+
+        <div class="specs-item">
+          <h2>Производительность и память</h2>
+          <ul>
+            <li>Процессор: 1 ГГц</li>
+            <li>Оперативная память (RAM): 256 МБ</li>
+            <li>Встроенная память: 8 ГБ</li>
+            <li>Поддержка карт памяти: microSD (до 32 ГБ)</li>
+          </ul>
+        </div>
+
+        <div class="specs-item">
+          <h2>Интерфейсы и подключение</h2>
+          <ul>
+            <li>Wi-Fi: Да (802.11 b/g/n)</li>
+            <li>Bluetooth: Нет</li>
+            <li>USB: micro-USB (зарядка и передача данных)</li>
+            <li>Аудиовыход: 3.5 мм</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="specs-row">
+        <div class="specs-item">
+          <h2>Батарея</h2>
+          <ul>
+            <li>Ёмкость: 1500 мАч</li>
+            <li>Автономность: До 1 месяца (при выключенной подсветке)</li>
+          </ul>
+        </div>
+
+        <div class="specs-item">
+          <h2>Дополнительные функции</h2>
+          <ul>
+            <li>Сенсорное управление: Да (ёмкостный экран)</li>
+            <li>Поддержка словарей: Да (встроенные + возможность загрузки новых)</li>
+            <li>Режим чтения: Портретный и ландшафтный</li>
+            <li>Поддержка TTS (Text-to-Speech): Да (озвучивание текста)</li>
+          </ul>
+        </div>
+
+        <div class="specs-item">
+          <h2>Комплектация</h2>
+          <ul>
+            <li>Устройство PocketBook 616</li>
+            <li>Кабель micro-USB</li>
+            <li>Документация</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews" id="reviews">
+      <h1 style="text-align: center;">Отзывы покупателей</h1>
+
+      <div class="reviews-container">
+        <!-- Отзыв 1 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-author">Александр К.</div>
+            <div class="review-rating">★★★★★</div>
+          </div>
+          <div class="review-date">15 мая 2024</div>
+          <div class="review-text">
+            Отличная читалка! Экран E Ink действительно бережет глаза, батареи хватает на недели.
+            Очень доволен покупкой, рекомендую всем, кто много читает.
+          </div>
+        </div>
+
+        <!-- Отзыв 2 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-author">Марина С.</div>
+            <div class="review-rating">★★★★☆</div>
+          </div>
+          <div class="review-date">2 июня 2024</div>
+          <div class="review-text">
+            Хороший ридер за свои деньги. Подсветка равномерная, но хотелось бы больше форматов
+            без конвертации. В целом - довольна.
+          </div>
+        </div>
+
+        <!-- Отзыв 3 -->
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-author">Дмитрий П.</div>
+            <div class="review-rating">★★★★★</div>
+          </div>
+          <div class="review-date">10 июня 2024</div>
+          <div class="review-text">
+            Идеальный вариант для поездок. Легкий, удобный, держит заряд больше месяца
+            при ежедневном чтении по 2-3 часа. Wi-Fi синхронизирует книги без проблем.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us" id="about-us">
+      <div class="about-container">
+        <div class="about-content">
+          <h1>О компании PocketBook</h1>
+          <div class="about-text">
+            <p>Добро пожаловать в мир PocketBook — инновационных электронных книг, созданных для тех, кто ценит
+              комфортное чтение и передовые технологии.</p>
+
+            <div class="about-item">
+              <h2>Почему выбирают нас?</h2>
+              <ul>
+                <li> 18 лет на рынке — лидер среди производителей ридеров в Европе</li>
+                <li>Экосистема для чтения — собственный книжный магазин с 1 000 000+ книг</li>
+                <li>Забота о зрении — экраны E Ink без мерцания и вредного синего света</li>
+                <li>Премиальное качество — строгий контроль на всех этапах производства</li>
+              </ul>
+            </div>
+
+            <div class="about-stats">
+              <div class="stat-item">
+                <div class="stat-number">10 000+</div>
+                <div class="stat-label">Довольных клиентов</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">24 месяца</div>
+                <div class="stat-label">Гарантия на ремонт</div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Поддержка</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-container" id="contacts">
+      <div class="footer-section">
+        <h3>Контакты</h3>
+        <ul class="contact-list">
+          <li>+7 (123) 456-78-90</li>
+          <li>info@pocketbook.example</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h3>Социальные сети</h3>
+        <div class="social-links">
+          <a href="#"><img src="images/vk.png" class="icon" alt="ВКонтакте"></a>
+          <a href="#"><img src="images/telegram.png" class="icon" alt="Telegram"></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h3>Часы работы</h3>
+        <p>Пн-Пт: 9:00 - 18:00</p>
+        <p>Сб-Вс: выходной</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 PocketBook.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
